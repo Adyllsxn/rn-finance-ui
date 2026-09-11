@@ -1,89 +1,58 @@
 <div align="center">
-  <img src="./assets/logo.svg" alt="Fizzi Logo" width="30%" /> 
-  </br> </br>
+    <img src="./docs/assets/logo.svg" alt="inZo Logo" width="45%" /> 
+    <br /> <br />
   
-  [![GitHub](https://img.shields.io/badge/github-fizzi--ui-181717?style=for-the-badge&logo=github)](https://github.com/Adyllsxn/fizzi-ui)
-  [![Vercel](https://img.shields.io/badge/vercel-fizzi--ui.vercel.app-000000?style=for-the-badge&logo=vercel)](https://fizzi-ui.vercel.app)
-  [![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)](LICENSE)
+  [![GitHub](https://img.shields.io/badge/github-inzo-181717?style=flat&logo=github)](https://github.com/Adyllsxn/inzo)
+  [![Demo](https://img.shields.io/badge/demo-online-4c1?style=flat&logo=vercel&logoColor=white)](https://inzo.vercel.app)
+  [![License](https://img.shields.io/badge/license-MIT-blue?style=flat)](LICENSE)
+    <br />
+
+# SISTIMA DE LOCALIZAÇÃO DE IMÓVEIS
 
 </div>
 
+## SOBRE O PROJETO
+O **inZo** é uma solução completa para a busca e divulgação de imóveis em Angola, conectando de forma direta **clientes a proprietários, imobiliárias e consultores através de mapas interativos**.
+
+A plataforma resolve os problemas tradicionais do mercado imobiliário angolano: elimina os intermediários excessivos, reduz a burocracia e substitui os processos manuais por um fluxo digital transparente, geolocalizado e centrado na comunicação direta (Cliente <==> Proprietário).
+
 ---
 
-## **📖 SOBRE O PROJETO**
+### Diferenciais e Funcionalidades
 
-> **Fizzi** é uma experiência visual interativa em 3D desenvolvida com Next.js e Three.js. O projeto explora animações em tempo real, renderização de modelos 3D e efeitos visuais imersivos, inspirado no universo de marcas de refrigerante.
+- **Mapeamento Geolocalizado em Tempo Real:** Ativação obrigatória de GPS para detetar a área e visualizar os pontos exatos no mapa de forma imediata.
+- **Sinalizadores de Estado por Cores:** Identificação visual intuitiva no mapa para filtrar o tipo de oferta:
+  - 🟢 **Verde:** Terreno à venda
+  - 🔵 **Azul:** Casa de aluguer
+  - 🟡 **Amarela:** Casa à venda
+- **Detalhes Completos do Imóvel:** Acesso rápido a informações essenciais como nome do proprietário, número de telefone, fotografias reais do espaço e localização geográfica precisa.
+- **Chat Integrado:** Sistema de mensagens interno para interagir diretamente com o anunciante sem barreiras.
+- **Registo Rápido de Imóveis:** Cadastro flexível onde o utilizador insere os dados (nome, contacto, tipo de imóvel) e define a localização geográfica manualmente ou utilizando a posição exata do GPS no local.
 
-### **✨ Funcionalidades:**
-```markdown
-✅ Modelo 3D interativo de lata de refrigerante
-✅ Troca de sabores com mudança de textura e cor de fundo
-✅ Controles de câmera (zoom, rotação, auto-rotação)
-✅ Efeito de partículas (Sparkles) e iluminação HDR
-✅ Interface moderna com glassmorphism e backdrop blur
-✅ Animações suaves com GSAP
-✅ Design responsivo e gradientes dinâmicos
+---
+
+## ESTRUTURA DO PROJETO
+
+```text
+inzo/
+├── docs/               # Especificações, requisitos e arquitetura do sistema
+├── src/
+│   ├── backend/        # API REST e persistência de dados
+│   └── mobile/         # Aplicação móvel (Cliente e Proprietário)
+└── README.md
 ```
 ---
 
-## **🛠️ TECNOLOGIAS**
+## DOCUMENTAÇÃO DO ECOSSISTEMA
 
-| Camada | Tecnologias |
-|--------|-------------|
-| **Runtime** | Next.js, TypeScript |
-| **3D** | Three.js, React Three Fiber, React Three Drei |
-| **Estilização** | Tailwind CSS, Tailwind Merge |
-| **Animações** | GSAP |
-| **Deploy** | Vercel |
+### Especificações do Projeto
+- [Requisitos e Regras de Negócio](./docs/specs/requirements.md): Requisitos funcionais, regras de acesso e validações de mercado.
 
----
-
-## 📸 DEMO
-<div align="center"> <img src="./assets/demo.svg" alt="PalancaFood Landing Page" width="65%" /> <br /> <i>Interface principal</i> </div>
+### Módulos do Código
+- [Servidor Backend (API)](./src/backend/README.md): Configuração do servidor, serviços e base de dados.
+- [Aplicação Móvel](./src/mobile/README.md): Instruções de arranque da aplicação para organizadores e segurança da portaria.
 
 ---
 
-## **PRÉ-REQUISITOS**
-
-Antes de começar, certifique-se de ter atendido aos seguintes requisitos:
-
-* [Git](https://git-scm.com/downloads "Download Git") deve estar instalado no seu sistema operacional.
-
-### Executar Localmente
-
-Para executar o **Foodie** localmente, execute este comando no seu git bash:
-
-
-```bash
-# Clone o repositório
-git clone https://github.com/Adyllsxn/fizzi-ui.git
-
-# Entre na pasta
-cd fizzi-ui/website
-
-# Instale as dependências
-npm install
-
-# Rode o projeto
-npm run dev
-```
-> Local http://localhost:3000 
-
-> Remoto https://fizzi-ui.vercel.app/
-
---- 
-
-## **📌 CRÉDITOS**
-
-Inspirado no projeto [Fizzi](https://github.com/prismicio-community/course-fizzi-next) de [prismicio-community](https://github.com/prismicio-community)
-
----
-
-## **📄 LICENÇA**
-
-> Este projeto está sob a licença **MIT**. Isso significa que você pode usar, copiar, modificar, mesclar, publicar, distribuir, sublicenciar e/ou vender cópias do software, desde que mantenha o aviso de copyright original.
-
----
-
-> ⚠️ Aviso: Os modelos 3D e texturas são de uso demonstrativo. Para uso comercial, adquira as licenças adequadas. Este projeto não possui afiliação oficial com a marca original.
-
+## LICENÇA
+Este projeto está licenciado sob a Licença MIT. Consulte o ficheiro [LICENSE](./LICENSE) para obter mais detalhes.

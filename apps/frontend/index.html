@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RN Finance UI | Modern Financial Experience</title>
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+  <!-- HEADER / NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-wrapper">
+      <a href="#" class="brand-logo">
+        <span class="logo-text">RN<span class="logo-accent">FINANCE</span><span class="dot">.</span></span>
+      </a>
+
+      <!-- MENU NAV MOBILE SLIDE -->
+      <nav class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#stats" class="nav-link">Metrics</a>
+        <a href="#download" class="btn btn-dark nav-mobile-btn">Install APK</a>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open Menu">
+        <i data-lucide="menu" id="menuIcon"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="hero-section">
+    <div class="container hero-grid">
+      
+      <div class="hero-text fade-in">
+        <h1 class="hero-title">
+          <span class="hero-title-light">The Future of Your</span> <br>
+          <span class="hero-title-medium">Personal</span> 
+          <span class="hero-title-bold text-lime-brand">Finances</span>
+        </h1>
+
+        <p class="hero-description">
+          An ultra-fast native experience built with React Native and NativeWind v4. Complete control over budgets, expenses, and wallets in a modern interface.
+        </p>
+
+        <div class="hero-cta-group" id="download">
+          <a href="#" class="btn btn-lime btn-lg shadow-btn">
+            <i data-lucide="download"></i>
+            <span>Install APK</span>
+          </a>
+          <a href="#features" class="btn btn-dark btn-lg">
+            <span>Explore Features</span>
+            <i data-lucide="chevron-right"></i>
+          </a>
+        </div>
+
+        <!-- QUICK STATS BAR -->
+        <div class="hero-metrics">
+          <div class="metric-card">
+            <span class="metric-num">60<small>FPS</small></span>
+            <span class="metric-label">Native Performance</span>
+          </div>
+          <div class="metric-divider"></div>
+          <div class="metric-card">
+            <span class="metric-num">100<small>%</small></span>
+            <span class="metric-label">Offline & Private</span>
+          </div>
+          <div class="metric-divider"></div>
+          <div class="metric-card">
+            <span class="metric-num">Expo</span>
+            <span class="metric-label">SDK Engine</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- HERO MOCKUP DISPLAY -->
+      <div class="hero-visual fade-in-delay">
+        <div class="mockup-frame">
+          <img src="./assets/mockup.webp" alt="RN Finance Mobile App" class="mockup-img">
+          
+          <div class="floating-card card-top float-anim">
+            <div>
+              <p class="card-title">William Current</p>
+              <p class="card-value text-slate">Verified Account</p>
+            </div>
+          </div>
+
+          <div class="floating-card card-bottom float-anim-reverse">
+            <div>
+              <p class="card-title">Payment Methods</p>
+              <p class="card-value text-dark">2 Active Cards</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FEATURES / CARDS SECTION -->
+  <section id="features" class="features-section">
+    <div class="container">
+      
+      <div class="section-header">
+        <span class="sub-heading">// KEY FEATURES</span>
+        <h2 class="section-title">Designed to bring clarity to your numbers</h2>
+      </div>
+
+      <div class="features-grid">
+        
+        <div class="feature-card dark-card">
+          <div class="card-icon lime-bg"><i data-lucide="pie-chart"></i></div>
+          <h3 class="text-white">Real-Time Analytics</h3>
+          <p class="text-slate">Track your expense distribution across categories with intuitive dashboards.</p>
+        </div>
+
+        <div class="feature-card white-card">
+          <div class="card-icon slate-bg"><i data-lucide="credit-card"></i></div>
+          <h3 class="text-dark">Multi-Wallet Management</h3>
+          <p class="text-slate-dark">Seamlessly separate personal savings, investments, and work accounts.</p>
+        </div>
+
+        <div class="feature-card white-card">
+          <div class="card-icon slate-bg"><i data-lucide="bell"></i></div>
+          <h3 class="text-dark">Smart Notifications</h3>
+          <p class="text-slate-dark">Receive instant payment reminders and custom spending threshold alerts.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-wrapper">
+      <p>&copy; 2026 <strong>RN Finance UI</strong>. Built by <strong>@adyllsxn</strong></p>
+      <div class="footer-links">
+        <a href="#home">Back to top <i data-lucide="chevron-right"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
