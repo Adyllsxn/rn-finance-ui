@@ -100,24 +100,20 @@ body {
   justify-content: space-between;
 }
 
-/* BRAND LOGO */
+/* BRAND LOGO RESPONSIVA (COM PERCENTAGEM) */
 .brand-logo {
   display: flex;
   align-items: center;
   text-decoration: none;
-  font-weight: 800;
-  font-size: 1.35rem;
-  letter-spacing: -0.5px;
-  color: var(--text-dark);
+  width: 15%;        /* Adapta-se fluidamente ao espaço do header */
+  min-width: 110px;  /* Garante tamanho mínimo legível em telemóveis */
+  max-width: 150px;  /* Impede que cresça demais em monitores grandes */
 }
 
-.logo-text {
-  font-weight: 800;
-}
-
-.logo-accent {
-  color: var(--lime-dark);
-  font-weight: 800;
+.brand-logo-img {
+  width: 100%;       /* Ocupa 100% da largura alocada pelo elemento pai (.brand-logo) */
+  height: auto;      /* Mantém rigorosamente a proporção original da imagem */
+  display: block;
 }
 
 /* NAV MENU DESKTOP */
@@ -453,8 +449,12 @@ body {
   50% { transform: translateY(8px); }
 }
 
-/* MOBILE NAV (LIMPO - SEM POPUPS) */
+/* MOBILE NAV & RESPONSIVE ADJUSTMENTS */
 @media (max-width: 900px) {
+  .brand-logo {
+    width: 25%; /* Ligeiramente maior proporcionalmente em telas intermediárias/tablets */
+  }
+
   .menu-toggle {
     display: flex;
     align-items: center;
@@ -537,6 +537,10 @@ body {
 }
 
 @media (max-width: 480px) {
+  .brand-logo {
+    width: 32%; /* Ajuste percentual fluído ideal para telemóveis */
+  }
+
   .hero-title {
     font-size: 2.1rem;
   }
