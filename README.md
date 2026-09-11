@@ -1,89 +1,52 @@
 <div align="center">
-  <img src="./assets/logo.svg" alt="Fizzi Logo" width="30%" /> 
-  </br> </br>
+    <img src="./docs/assets/logo.svg" alt="RN Finance UI Logo" width="45%" /> 
+    <br /> <br />
   
-  [![GitHub](https://img.shields.io/badge/github-fizzi--ui-181717?style=for-the-badge&logo=github)](https://github.com/Adyllsxn/fizzi-ui)
-  [![Vercel](https://img.shields.io/badge/vercel-fizzi--ui.vercel.app-000000?style=for-the-badge&logo=vercel)](https://fizzi-ui.vercel.app)
-  [![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)](LICENSE)
+  [![GitHub](https://img.shields.io/badge/github-rn--finance--ui-181717?style=flat&logo=github)](https://github.com/Adyllsxn/rn-finance-ui)
+  [![Demo](https://img.shields.io/badge/demo-online-D0F244?style=flat&logo=vercel&logoColor=black)](https://rn-finance-ui.vercel.app)
+  [![License](https://img.shields.io/badge/license-MIT-blue?style=flat)](LICENSE)
+    <br />
 
+# PERSONAL FINANCE UI PROTOTYPE
+
+</div>
+
+## ABOUT THE PROJECT
+**RN Finance UI** is a **conceptual visual interface prototype (UI Kit)** focused on personal finance management. Built to showcase modern layouts, high visual fluidity, and mobile UX best practices.
+
+It is a frontend demonstration that simulates the user experience of a financial dashboard ideal for serving as a design base or studying mobile interfaces built with React Native and NativeWind v4.
+
+> ⚠️ **Note:** This repository is strictly a **visual prototype (UI Concept)**. It does not contain integrations with real backend services or databases.
+
+---
+
+### Key Highlights & UI Concepts
+
+- **Dashboard & Analytics Layout:** Visual components designed for intuitive spending charts and category breakdowns.
+- **Wallet & Account Views:** Conceptual screens for seamless navigation across multiple accounts and cards.
+- **Native Design System:** Built with design tokens tailored for a modern aesthetic using React Native + NativeWind v4.
+- **Smooth & Responsive Interface:** Engineered for a 60 FPS user experience with clean, reusable components.
+
+---
+
+## **📸 DEMO**
+<div align="center"> 
+  <img src="./docs/assets/banner_screens.png" alt="RN Finance UI" width="65%" /> 
+  <br /> 
+  <i>UI FINANCE</i> 
 </div>
 
 ---
 
-## **📖 SOBRE O PROJETO**
+### 📚 DOCUMENTATION & SETUP
 
-> **Fizzi** é uma experiência visual interativa em 3D desenvolvida com Next.js e Three.js. O projeto explora animações em tempo real, renderização de modelos 3D e efeitos visuais imersivos, inspirado no universo de marcas de refrigerante.
+#### 🚀 Getting Started
+- [Running the Project](./apps/mobile/README.md): Instructions on how to set up the environment, run the Expo development server, and preview the UI on your device or emulator.
 
-### **✨ Funcionalidades:**
-```markdown
-✅ Modelo 3D interativo de lata de refrigerante
-✅ Troca de sabores com mudança de textura e cor de fundo
-✅ Controles de câmera (zoom, rotação, auto-rotação)
-✅ Efeito de partículas (Sparkles) e iluminação HDR
-✅ Interface moderna com glassmorphism e backdrop blur
-✅ Animações suaves com GSAP
-✅ Design responsivo e gradientes dinâmicos
-```
----
-
-## **🛠️ TECNOLOGIAS**
-
-| Camada | Tecnologias |
-|--------|-------------|
-| **Runtime** | Next.js, TypeScript |
-| **3D** | Three.js, React Three Fiber, React Three Drei |
-| **Estilização** | Tailwind CSS, Tailwind Merge |
-| **Animações** | GSAP |
-| **Deploy** | Vercel |
+#### 🎨 Design & Specs
+- [UI Specifications](./docs/specs/requirements.md): Details about screen flows, color tokens, typography, and component guidelines.
 
 ---
 
-## 📸 DEMO
-<div align="center"> <img src="./assets/demo.svg" alt="PalancaFood Landing Page" width="65%" /> <br /> <i>Interface principal</i> </div>
-
----
-
-## **PRÉ-REQUISITOS**
-
-Antes de começar, certifique-se de ter atendido aos seguintes requisitos:
-
-* [Git](https://git-scm.com/downloads "Download Git") deve estar instalado no seu sistema operacional.
-
-### Executar Localmente
-
-Para executar o **Foodie** localmente, execute este comando no seu git bash:
-
-
-```bash
-# Clone o repositório
-git clone https://github.com/Adyllsxn/fizzi-ui.git
-
-# Entre na pasta
-cd fizzi-ui/website
-
-# Instale as dependências
-npm install
-
-# Rode o projeto
-npm run dev
-```
-> Local http://localhost:3000 
-
-> Remoto https://fizzi-ui.vercel.app/
-
---- 
-
-## **📌 CRÉDITOS**
-
-Inspirado no projeto [Fizzi](https://github.com/prismicio-community/course-fizzi-next) de [prismicio-community](https://github.com/prismicio-community)
-
----
-
-## **📄 LICENÇA**
-
-> Este projeto está sob a licença **MIT**. Isso significa que você pode usar, copiar, modificar, mesclar, publicar, distribuir, sublicenciar e/ou vender cópias do software, desde que mantenha o aviso de copyright original.
-
----
-
-> ⚠️ Aviso: Os modelos 3D e texturas são de uso demonstrativo. Para uso comercial, adquira as licenças adequadas. Este projeto não possui afiliação oficial com a marca original.
-
+## LICENSE
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
