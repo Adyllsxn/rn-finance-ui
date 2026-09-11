@@ -48,5 +48,12 @@ It is a frontend demonstration that simulates the user experience of a financial
 
 ---
 
+## ⚠️ APK INSTALLATION NOTE
+The original test APK size is **107.6MB**. To optimize repository size and download speed, it has been compressed into a **46.6MB** `.zip` archive. 
+
+👉 **How to install:** Download the `.zip` file, extract it to your Android device to access the `.apk`, and then proceed with the installation.
+
+---
+
 ## LICENSE
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
