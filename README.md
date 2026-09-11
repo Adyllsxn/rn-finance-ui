@@ -3,7 +3,7 @@
     <br /> <br />
   
   [![GitHub](https://img.shields.io/badge/github-rn--finance--ui-181717?style=flat&logo=github)](https://github.com/Adyllsxn/rn-finance-ui)
-  [![Demo](https://img.shields.io/badge/demo-online-D0F244?style=flat&logo=vercel&logoColor=black)](https://rn-finance-ui.vercel.app)
+  [![Demo](https://img.shields.io/badge/demo-online-D0F244?style=flat&logo=vercel&logoColor=black)](https://rn-finance-ui.vercel.app/)
   [![License](https://img.shields.io/badge/license-MIT-blue?style=flat)](LICENSE)
     <br />
 
