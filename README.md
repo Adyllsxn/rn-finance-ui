@@ -7,7 +7,7 @@
   [![License](https://img.shields.io/badge/license-MIT-blue?style=flat)](LICENSE)
     <br />
 
-# PERSONAL FINANCE UI PROTOTYPE.
+# PERSONAL FINANCE UI PROTOTYPE
 
 </div>
 
